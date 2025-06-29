@@ -7,6 +7,7 @@ retroanalysis-core/
 │   └── validator.go         # Property validation
 ├── mappers/
 │   ├── loader.go            # Mapper loader
+│   ├── mapper.go            # Mapper definition
 │   ├── parser.go            # CUE parser
 │   └── schema.go            # Schema definitions
 ├── transforms/
@@ -18,4 +19,4 @@ retroanalysis-core/
 ├── batch/
 │   └── batch.go             # Batch operations
 └── references/
-└── reference.go         # Reference types
+└── reference.go             # Reference types (Mostly just references internal pokemon stuff)
